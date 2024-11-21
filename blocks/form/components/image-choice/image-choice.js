@@ -8,4 +8,5 @@ export default function decorate(fieldDiv, fieldJson) {
         img.alt = fieldJson.enumNames[i];
         label.prepend(img);
     }
+    return fieldDiv;
 }
