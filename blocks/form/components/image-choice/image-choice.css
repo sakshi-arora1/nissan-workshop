@@ -11,10 +11,10 @@ main .form form .image-choice .radio-wrapper:has(>input:checked) {
 
 @keyframes border_anim {
     0%{
-        width: 0%;
+        border-bottom: 2px solid #ccc;
     }
     100%{
-        width: 100%;
+        border-bottom: 2px solid #000;
     }
 }
 
