@@ -45,7 +45,7 @@
                         {
                             "component": "reference",
                             "name": "imageUrls",
-                            "label": "Images (Display Images)",
+                            "label": "Images (Display Image)",
                             "valueType": "string",
                             "multi": true
                         },
