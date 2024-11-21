@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 
-image-choice .radio-wrapper label img {
+.image-choice .radio-wrapper label img {
     height: 178px;
     display: block;
 }
