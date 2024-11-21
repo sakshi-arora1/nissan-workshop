@@ -388,6 +388,7 @@
                 "template": {
                   "jcr:title": "Image Choice",
                   "fieldType": "radio-group",
+                  "fd:viewType": "image-choice",
                   "enum": [
                     "0",
                     "1"

@@ -3708,7 +3708,7 @@
     ]
   },
   {
-    "id": "radio-group",
+    "id": "image-choice",
     "fields": [
       {
         "component": "container",
