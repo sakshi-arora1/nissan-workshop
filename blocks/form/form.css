@@ -569,7 +569,7 @@ main .form form:not(.edit-mode) .captcha-wrapper{
     display: none ;
 }
 
-main .form .button-wrapper.field-resetCarModel button {
+main .form .button-wrapper.field-resetcarmodel button {
     color: #000;
     text-decoration: underline;
     background-color: transparent;
