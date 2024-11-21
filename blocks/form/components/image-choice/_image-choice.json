@@ -19,7 +19,8 @@
                                 "Item 2"
                             ],
                             "imageUrls": [
-
+                                "",
+                                ""
                             ],
                             "enabled": true,
                             "visible": true
@@ -40,12 +41,12 @@
                     "collapsible": false,
                     "fields": [
                         {
-                            "...": "../form-common/_basic-select-fields.json#/fields"
+                            "...": "../../../../models/form-common/_basic-select-fields.json#/fields"
                         },
                         {
                             "component": "reference",
                             "name": "imageUrls",
-                            "label": "Images (Display Image)",
+                            "label": "Images (Display Images)",
                             "valueType": "string",
                             "multi": true
                         },
@@ -100,14 +101,14 @@
                     ]
                 },
                 {
-                    "...": "../form-common/_help-container.json"
+                    "...": "../../../../models/form-common/_help-container.json"
                 },
                 {
                     "component": "container",
                     "name": "validation",
                     "label": "Validation",
                     "collapsible": true,
-                    "...": "../form-common/_basic-validation-fields.json"
+                    "...": "../../../../models/form-common/_number-validation-fields.json"
                 }
             ]
         }
