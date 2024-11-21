@@ -568,3 +568,10 @@ main form .wizard > .current-wizard-step.panel-wrapper:last-of-type ~ .wizard-bu
 main .form form:not(.edit-mode) .captcha-wrapper{
     display: none ;
 }
+
+main .form .button-wrapper.field-resetcarmodel button {
+    color: #000;
+    text-decoration: underline;
+    background-color: transparent;
+}
+

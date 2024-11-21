@@ -4,13 +4,28 @@ main .form form .image-choice .radio-wrapper {
     margin-left: 20px;
 }
 
-main .form form .image-choice .radio-wrapper:has(>input:checked) {
+@keyframes zoop {
+    from { display: inline-block; }
+    to { transform: scaleX(0.5); scaleY(0.5); opacity: 0;}
+}
+
+.radio-group-wrapper.image-choice:has(input:checked) label{
+    display: none;
+    animation: zoop 200ms;
+}
+
+main .form form .image-choice.radio-group-wrapper .radio-wrapper:has(>input:checked) {
     border-bottom: 2px solid #000;
     transition: border-color 1s linear;
+    display: inline-block;
 }
 
 .image-choice .radio-wrapper input {
     display: none;
+}
+
+.image-choice .radio-wrapper input:checked +label {
+    display: inline-block;
 }
 
 .image-choice .radio-wrapper label {
