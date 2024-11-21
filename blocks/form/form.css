@@ -439,6 +439,7 @@ main form .panel-wrapper {
   display: flex;
   padding: 0;
   flex-direction: column;
+  border-bottom: 1px solid #ccc;
 }
 
 main .form form .panel-wrapper{
