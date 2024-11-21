@@ -4,9 +4,9 @@ main .form form .image-choice .radio-wrapper {
     margin-left: 20px;
 }
 
-main .form form .image-choice .radio-wrapper:has(>input:checked) {
+/*main .form form .image-choice .radio-wrapper:has(>input:checked) {
     border-bottom: 2px solid #000;
-}
+}*/
 
 .image-choice .radio-wrapper input {
     display: none;
