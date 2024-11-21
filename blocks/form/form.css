@@ -439,13 +439,14 @@ main form .panel-wrapper {
   display: flex;
   padding: 0;
   flex-direction: column;
-  border-bottom: 1px solid #ccc;
 }
 
 main .form form .panel-wrapper{
   display: grid;
   grid-template-columns: repeat(var(--form-columns), minmax(0, 1fr));
   gap: var(--form-field-vert-gap) var(--form-field-horz-gap);
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
 }
 
 main .form form .repeat-wrapper{
