@@ -1,1 +1,18 @@
-border-bottom: 2px solid #ccc;
+.image-choice .radio-wrapper {
+    display: inline-block;
+    border-bottom: 2px solid #ccc;
+}
+
+.image-choice .radio-wrapper input {
+    display: none;
+}
+
+.image-choice .radio-wrapper label {
+    cursor: pointer;
+}
+
+image-choice .radio-wrapper label img {
+    height: 178px;
+    display: block;
+}
+
