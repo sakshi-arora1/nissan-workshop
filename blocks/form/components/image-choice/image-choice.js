@@ -1,4 +1,5 @@
 export default function decorate(fieldDiv, fieldJson) {
+    fieldDiv.classList.add("image-choice");
     const radios = fieldDiv.querySelectorAll('.radio-wrapper');
     const totalRadio = radios.length;
     for (let i = 0; i < totalRadio; i++) {
